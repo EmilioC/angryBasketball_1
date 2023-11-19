@@ -11,13 +11,16 @@ import { CustomerSupportComponent } from './customer-support/customer-support.co
 import { AppRoutingModule } from './app-routing.module';
 import { AsistenteVirtualComponent } from './asistente-virtual/asistente-virtual.component';
 import { MarketingChatComponent } from './marketing-chat/marketing-chat.component';
+import { AngryBirdsGameComponent } from './angry-birds-game/angry-birds-game.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerSupportComponent,
     AsistenteVirtualComponent,
-    MarketingChatComponent
+    MarketingChatComponent,
+    AngryBirdsGameComponent
   ],
   imports: [
     BrowserModule,
